@@ -83,3 +83,14 @@ form.addEventListener('submit', (event) => {
             });
     }
 });
+
+
+document.querySelector('.btn_b').addEventListener('click',(e)=> {
+    e.preventDefault();
+    document.body.style.background = '#333333';
+})
+
+document.querySelector('.btn_w').addEventListener('click',(e)=> {
+    e.preventDefault();
+    document.body.style.background = '#ffffff';
+})

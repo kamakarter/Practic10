@@ -124,3 +124,35 @@
     color: red;
     font-weight: 500;   
 }
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header_btns {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+.btn_b {
+    background: #171717;
+    color: #fff;
+}
+.btn_w {
+    color: #171717;
+    border: 1px solid #171717;
+}
